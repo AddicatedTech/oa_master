@@ -12,7 +12,7 @@ public class DealRecord {
     private String dealSn;
 
     @DateTimeFormat(pattern = "yyyy-MM-dd hh:mm")
-    private Date dealTime;
+    private Date dealTime;  // 设定日期格式
 
     private String dealWay;
 
